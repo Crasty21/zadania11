@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Lista zakupów</title>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+</head>
+<body>
+
+<h2>Lista zakupów</h2>
+
+<input type="text" id="product">
+<input type="text" id="filter" placeholder="Filtruj">
+<br><br>
+
+<button id="add">Dodaj produkt</button>
+<button id="addStart">Dodaj na początku</button>
+<button id="addEnd">Dodaj na końcu</button>
+<button id="removeLast">Usuń ostatni produkt</button>
+<button id="clear">Wyczyść listę</button>
+<button id="restore">Przywróć listę</button>
+<button id="color">Pokoloruj co drugi</button>
+<button id="sort">Sortuj alfabetycznie</button>
+
+<ul id="list">
+<li class="list-group-item">Chleb</li>
+<li class="list-group-item">Mleko</li>
+<li class="list-group-item">Masło</li>
+</ul>
+
+<script src="script.js"></script>
+</body>
+</html>
